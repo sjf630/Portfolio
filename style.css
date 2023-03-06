@@ -6,7 +6,13 @@ body {
   background-color: rgb(232, 232, 205);
 }
 
-header,
+header {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  color: #f1cc8b;
+  background-color: #d34f17;
+}
 footer {
   width: 100%;
   height: 50px;
@@ -16,7 +22,7 @@ footer {
 }
 
 figure {
-  width: 200px;
+  width: 150px;
   background-color: #e3ddcb;
 }
 
