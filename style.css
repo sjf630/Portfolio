@@ -1,5 +1,8 @@
 * {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,11 +10,37 @@ body {
 }
 
 header {
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 50px;
-  line-height: 50px;
+  height: 15rem;
   color: #f1cc8b;
   background-color: #d34f17;
+}
+.navbar ul{
+  display:flex;
+  gap:1rem;
+}
+.navbar ul >*{
+  flex:1;
+}
+.navbar li{
+  list-style: none;
+  text-decoration: none;
+}
+.project-1{
+  height: 15rem;
+  width: 15rem;
+}
+.project-2{
+    height: 15rem;
+    width: 15rem;
+}
+.randomguy{
+  height: 25rem;
+  width: 25rem;
 }
 footer {
   width: 100%;
@@ -19,6 +48,7 @@ footer {
   line-height: 50px;
   color: #f1cc8b;
   background-color: #d34f17;
+  bottom:0;
 }
 
 figure {
